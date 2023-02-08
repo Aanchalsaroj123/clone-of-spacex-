@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@700&family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;900&family=Permanent+Marker&display=swap');
+
+* {
+  margin: 0;
+  /* background-color: black; */
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url(img122.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+}
+
+.first {
+  margin-top: 15px;
+  /* display: inline-block; */
+}
+
+.logo {
+  font-family: 'Permanent Marker', cursive;
+  letter-spacing: .2rem;
+  padding-top: 10px;
+  padding-left: 70px;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.nav ul {
+  display: inline-block;
+}
+
+.nav ul li {
+  display: inline-block;
+}
+
+.nav ul li a {
+  /* word-spacing: 3rem; */
+  letter-spacing: .1rem;
+  font-family: 'Bebas Neue', cursive;
+  padding-left: 30px;
+  display: inline-block;
+  color: white;
+}
+
+.nav ul li a:hover {
+
+  letter-spacing: .1rem;
+  font-family: 'Bebas Neue', cursive;
+  padding-left: 30px;
+  display: inline-block;
+  text-decoration: underline;
+}
+
+.off-canvas__toggle {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 25px;
+  height: 3px;
+  background-color: #ffffff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
+.off-canvas__toggle {
+  padding-right: 90px;
+}
+
+.off-canvas {
+  margin-top: -30px;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin-right: 30px;
+}
+.of-menu2{
+  display: none;
+}
+
+.off-canvas__menu {
+  position: absolute;
+  top: -30px;
+  right: -250px;
+  width: 250px;
+  height: 600px;
+  background-color: #311c0ebd;
+  padding: 1px;
+  transition: right 0.5s ease-in-out;
+}
+
+.off-canvas__menu a {
+  color: white;
+  line-height: 2;
+  padding-left: 5px;
+
+}
+
+.off-canvas__menu ul {
+  margin-top: 70px;
+}
+
+.off-canvas__menu--open {
+  right: 0;
+}
+
+.off-canvas__toggle {
+  margin-top: 0;
+  float: right;
+}
+
+
+
+.second {
+  padding-top: 200px;
+  padding-left: 60px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+h1 {
+  font-weight: 600;
+  font-stretch: semi-condensed;
+  font-size: 2rem;
+  /* padding-left: 60px; */
+  /* letter-spacing: 0rem; */
+}
+
+.rewatch_bttn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  border-color: #ffffff;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background-color: transparent;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.rewatch_bttn a {
+  color: white;
+}
+
+.rewatch_bttn a:hover {
+  color: black;
+}
+
+.rewatch_bttn:hover {
+  background: white;
+  background-image: -webkit-linear-gradient(top, white, white);
+  background-image: -moz-linear-gradient(top, white, white);
+  background-image: -ms-linear-gradient(top, white, white);
+  background-image: -o-linear-gradient(top, white, white);
+  background-image: linear-gradient(to bottom, white, white);
+  /* text-decoration: none; */
+  color: black;
+}
+
+.third {
+  margin-top: 200px;
+  background-image: url("secondslide.webp");
+  background-size: 100%;
+  height: auto;
+  padding-top: 400px;
+  padding-left: 60px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 80px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+footer li {
+  padding: 10px;
+  display: inline-block;
+  color: white;
+}
+
+footer li a {
+
+  color: white;
+}
+
+footer li a:hover {
+
+  color: rgb(78, 71, 71);
+}
+
+
+
+@media screen and (max-width: 900px) {
+  .nav {
+    text-align: center;
+  }
+
+  .off-canvas__menu {
+    top: -30px;
+  }
+
+  .off-canvas {
+    /* margin-top: -96px; */
+    margin-left: 60px;
+  }
+
+  .second {
+    padding-top: 100px;
+
+  }
+
+  h2 {
+    font-size: .7rem;
+
+  }
+
+  h1 {
+
+    font-size: 1rem;
+  }
+  .rewatch_bttn {
+  
+    font-size: 10px;
+ 
+    padding: 3px 2px 3px 2px;
+   
+  }
+  .third {
+    margin-top: 60px;
+    padding-top: 160px;
+    padding-left: 60px;
+    padding-bottom: 50px;
+  }
+  
+footer {
+
+
+  height: 50px;
+  padding-top: 20px;
+  font-size: 8px;
+ 
+}
+.nav .nav-element li a {
+  display: none;
+}
+.of-menu2{
+  display:block;
+}
+}
